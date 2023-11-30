@@ -12,12 +12,12 @@ public class Ingredient{
 
         boolean allergene;
 
-        int kipik;
+        int spicy;
 
-        public Ingredient(String nom, boolean allergene, int kipik) {
+        public Ingredient(String nom, boolean allergene, int spicy) {
                 this.nom = nom;
                 this.allergene = allergene;
-                this.kipik = kipik;
+                this.spicy = spicy;
         }
 
         public Long getId() {
@@ -45,11 +45,11 @@ public class Ingredient{
         }
 
         public int getKipik() {
-                return kipik;
+                return spicy;
         }
 
-        public void setKipik(int kipik) {
-                this.kipik = kipik;
+        public void setKipik(int spicy) {
+                this.spicy = spicy;
         }
 
         public Ingredient() {
